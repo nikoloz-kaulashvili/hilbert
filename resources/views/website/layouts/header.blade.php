@@ -11,7 +11,7 @@
             <path fill-rule="evenodd"
                 d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
         </svg>
-        <span>MENU</span>
+        <span>{{__('main.text_1')}}</span>
     </div>
 </header>
 
@@ -19,14 +19,14 @@
     <div class="cover"></div>
     <div class="navigation">
         <div class="navbar-header d-flex">
-            <h6 class="menu">MENU</h6>
-            <h6 class="close">CLOSE</h6>
+            <h6 class="menu">{{__('main.text_1')}}</h6>
+            <h6 class="close">{{__('main.text_2')}}</h6>
         </div>
         <ul class="mt-5">
-            <li><a href="{{ route('website.main') }}">Home</a></li>
-            <li><a href="{{ route('website.services') }}">Services</a></li>
-            <li><a href="{{ route('website.works') }}">Works</a></li>
-            <li><a href="{{ route('website.contact') }}">Contact</a></li>
+            <li><a href="{{ route('website.main') }}">{{__('main.text_3')}}</a></li>
+            <li><a href="{{ route('website.services') }}">{{__('main.text_4')}}</a></li>
+            <li><a href="{{ route('website.works') }}">{{__('main.text_5')}}</a></li>
+            <li><a href="{{ route('website.contact') }}">{{__('main.text_6')}}</a></li>
         </ul>
         <div class="social-icons d-flex">
             <a href=""><img src="/website/assets/img/facebook.png" alt="1"></a>

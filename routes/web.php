@@ -8,6 +8,7 @@ Route::get('/services', [WebsiteController::class, 'services'])->name('website.s
 Route::get('/works', [WebsiteController::class, 'works'])->name('website.works');
 Route::get('/contact', [WebsiteController::class, 'contact'])->name('website.contact');
 Route::post('/contact', [WebsiteController::class, 'contactSend'])->name('contact.send');
+Route::get('switch-language/{lang}', [LocalizationController::class, 'switchLanguage'])->name('switch.language');
 
 
 

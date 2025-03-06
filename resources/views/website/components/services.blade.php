@@ -3,52 +3,40 @@
     <div class="container-fluid main-container mt-5 service-lg">
         <div class="row mt-5 service-row">
             <div class="col-md-12 d-flex text-container">
-                <span class="section-title service-page-title">Our Service</span>
+                <span class="section-title service-page-title"> {{__('main.text_78')}}</span>
                 <div class="service-swiper">
                     <div class="swiper-slide service_swiper_1">
                         <div class="swiper-item">
                             <div class="service-title d-flex">
                                 <span class="service-number">01</span>
-                                <span class="service-name">BRAND STRATEGY</span>
+                                <span class="service-name">{{__('main.text_79')}}</span>
                                 <div class="collapse collapse-container service-collapse mt-2 " id="service1">
                                     <div class="d-flex">
                                         <div class="description">
-                                            <p>
-                                                We define a brand's identity, positioning,
-                                                and messaging to connect with its audience and stand out in the market.
+                                            <p>{{__('main.text_80')}}
+                                               
                                             </p>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <h3>Market Research</h3>
-                                                <p>gathering and analyzing data about the
-                                                    target audience, competitors, and market
-                                                    trends to inform strategic decisions.</p>
+                                                <h3>{{__('main.text_81')}}</h3>
+                                                <p> {{__('main.text_82')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Brand Positioning</h3>
-                                                <p>Defining a brand’s unique place in the
-                                                    market by identifying its value proposition
-                                                    and differentiating it from competitors.</p>
+                                                <h3>{{__('main.text_83')}}</h3>
+                                                <p>{{__('main.text_84')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Naming & Taglines</h3>
-                                                <p>Creating compelling and memorable names
-                                                    for the brand along with impactful taglines
-                                                    that communicate the brand's core message</p>
+                                                <h3>{{__('main.text_85')}}</h3>
+                                                <p>{{__('main.text_86')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Brand Storytelling</h3>
-                                                <p>Crafting a narrative that conveys the
-                                                    brand’s mission, values, and journey,
-                                                    helping customers connect emotionally
-                                                    with the brand.</p>
+                                                <h3>{{__('main.text_87')}}</h3>
+                                                <p>{{__('main.text_88')}}</p>
                                             </div>
                                             <div class="col-md-12">
-                                                <h3>Brand Messaging & Communication Strategy</h3>
-                                                <p>Developing consistent, clear messages across all platforms to ensure the
-                                                    brand
-                                                    communicates effectively with its audience.</p>
+                                                <h3>{{__('main.text_89')}}</h3>
+                                                <p>{{__('main.text_90')}}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -63,11 +51,11 @@
                                 </span>
                             </div>
                             <div class="service-option service1-desc">
-                                <p class="mt-2">Market Research</p>
-                                <p class="mt-2">Brand Positioning</p>
-                                <p class="mt-2">Naming & Taglines</p>
-                                <p class="mt-2">Brand Storytelling</p>
-                                <p class="mt-2">Brand Messaging & Communication Strategy</p>
+                                <p class="mt-2">{{__('main.text_91')}}</p>
+                                <p class="mt-2">{{__('main.text_92')}}</p>
+                                <p class="mt-2">{{__('main.text_93')}}</p>
+                                <p class="mt-2">{{__('main.text_94')}}</p>
+                                <p class="mt-2">{{__('main.text_95')}}</p>
                             </div>
                         </div>
                     </div>
@@ -75,47 +63,34 @@
                         <div class="swiper-item">
                             <div class="service-title d-flex">
                                 <span class="service-number">02</span>
-                                <span class="service-name">VISUAL BRAND IDENTITY</span>
+                                <span class="service-name">{{__('main.text_96')}}</span>
                                 <div class="collapse collapse-container service-collapse mt-2 " id="service2">
                                     <div class="d-flex">
                                         <div class="description">
-                                            <p>
-                                                We design the key visual elements of a
-                                                brand, including logos, colors, and
-                                                typography, for a unique and consistent
-                                                brand presence
+                                            <p>{{__('main.text_97')}}
+                                                
                                             </p>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <h3>Logo Design</h3>
-                                                <p>Creating a unique and memorable logo
-                                                    that represents the brand’s identity and
-                                                    values.</p>
+                                                <h3>{{__('main.text_98')}}</h3>
+                                                <p>{{__('main.text_99')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Color Palette</h3>
-                                                <p>Developing a set of colors that align with
-                                                    the brand’s personality and evoke the
-                                                    desired emotional response</p>
+                                                <h3>{{__('main.text_200')}}</h3>
+                                                <p>{{__('main.text_101')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Typography</h3>
-                                                <p>Choosing fonts and typography styles that
-                                                    complement the brand’s image and enhance
-                                                    readability</p>
+                                                <h3>{{__('main.text_102')}}</h3>
+                                                <p>{{__('main.text_103')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Brand Guidelines</h3>
-                                                <p>Creating a document that outlines how
-                                                    to use visual elements consistently
-                                                    across all platforms and materials.</p>
+                                                <h3>{{__('main.text_104')}}</h3>
+                                                <p> {{__('main.text_105')}}</p>
                                             </div>
                                             <div class="col-md-12">
-                                                <h3>Packaging & Marketing Material Design</h3>
-                                                <p>Creating product packaging and marketing material designs that reflect
-                                                    the brand’s
-                                                    identity while being functional, attractive, and on-brand</p>
+                                                <h3>{{__('main.text_106')}}</h3>
+                                                <p>{{__('main.text_107')}}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -130,11 +105,11 @@
                                 </span>
                             </div>
                             <div class="service-option service2-desc">
-                                <p class="mt-2">Logo Design</p>
-                                <p class="mt-2">Typography</p>
-                                <p class="mt-2">Packaging & Marketing Material Design</p>
-                                <p class="mt-2">Color Palette</p>
-                                <p class="mt-2">Brand Guidelines</p>
+                                <p class="mt-2">{{__('main.text_108')}}</p>
+                                <p class="mt-2">{{__('main.text_109')}}</p>
+                                <p class="mt-2">{{__('main.text_110')}}</p>
+                                <p class="mt-2">{{__('main.text_111')}}</p>
+                                <p class="mt-2">{{__('main.text_112')}}</p>
                             </div>
                         </div>
                     </div>
@@ -142,33 +117,26 @@
                         <div class="swiper-item">
                             <div class="service-title d-flex">
                                 <span class="service-number">03</span>
-                                <span class="service-name">MARKETING & PROMOTION</span>
+                                <span class="service-name">{{__('main.text_113')}}</span>
                                 <div class="collapse collapse-container service-collapse mt-2 " id="service3">
                                     <div class="d-flex">
                                         <div class="description">
-                                            <p>
-                                                We create and execute powerful
-                                                marketing strategies to maximize
-                                                reach and engagement
+                                            <p> {{__('main.text_114')}}
+                                                
                                             </p>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <h3>Photo & Video
-                                                    Production</h3>
-                                                <p>High-quality promotional content creation</p>
+                                                <h3>{{__('main.text_115')}}</h3>
+                                                <p>{{__('main.text_116')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Event Organization</h3>
-                                                <p>Brand activations, corporate events, and
-                                                    networking initiatives</p>
+                                                <h3>{{__('main.text_117')}}</h3>
+                                                <p>{{__('main.text_118')}}</p>
                                             </div>
                                             <div class="col-md-12">
-                                                <h3>Social Media Management</h3>
-                                                <p>Create and manage content across social media platforms, engaging with
-                                                    the audience,
-                                                    and analyzing performance to build a strong online presence and drive
-                                                    brand awareness</p>
+                                                <h3>{{__('main.text_119')}}</h3>
+                                                <p>{{__('main.text_120')}}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -183,9 +151,9 @@
                                 </span>
                             </div>
                             <div class="service-option service3-desc">
-                                <p class="mt-2">Social Media Management</p>
-                                <p class="mt-2">Photo & Video Production</p>
-                                <p class="mt-2">Event Organization</p>
+                                <p class="mt-2">{{__('main.text_121')}}</p>
+                                <p class="mt-2">{{__('main.text_122')}}</p>
+                                <p class="mt-2">{{__('main.text_123')}}</p>
                             </div>
 
                         </div>
@@ -194,45 +162,30 @@
                         <div class="swiper-item">
                             <div class="service-title d-flex">
                                 <span class="service-number">04</span>
-                                <span class="service-name">IT SOLUTIONS</span>
+                                <span class="service-name">{{__('main.text_124')}}</span>
                                 <div class="collapse collapse-container service-collapse mt-2 " id="service4">
                                     <div class="d-flex">
                                         <div class="description">
-                                            <p>
-                                                We develop digital solutions to optimize
-                                                operations and enhance brand visibility
+                                            <p> {{__('main.text_125')}}
+                                                
                                             </p>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <h3>UI / UX</h3>
-                                                <p>Creating intuitive and visually appealing
-                                                    user interfaces and experiences to
-                                                    enhance user satisfaction and interaction
-                                                    with digital products.</p>
+                                                <p>{{__('main.text_126')}} </p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Web Development</h3>
-                                                <p>Building and maintaining websites and
-                                                    web applications, ensuring they are
-                                                    functional, responsive, and optimized for a
-                                                    seamless user experience</p>
+                                                <h3>{{__('main.text_127')}}</h3>
+                                                <p>{{__('main.text_128')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Software & App
-                                                    Development</h3>
-                                                <p>Designing and developing custom software
-                                                    solutions and mobile applications tailored to
-                                                    meet specific business needs and enhance
-                                                    functionality.</p>
+                                                <h3>{{__('main.text_129')}}</h3>
+                                                <p>{{__('main.text_130')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Domain & Server
-                                                    Management</h3>
-                                                <p>Managing and maintaining domain names
-                                                    and server infrastructure, ensuring
-                                                    secure, reliable, and high-performance
-                                                    hosting for websites and applications.</p>
+                                                <h3>{{__('main.text_131')}}</h3>
+                                                <p>{{__('main.text_132')}}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -248,9 +201,9 @@
                             </div>
                             <div class="service-option service4-desc">
                                 <p class="mt-2">UI / UX</p>
-                                <p class="mt-2">Web Development</p>
-                                <p class="mt-2">Software & App Development</p>
-                                <p class="mt-2">Domain & Server Management</p>
+                                <p class="mt-2">{{__('main.text_133')}}</p>
+                                <p class="mt-2"> {{__('main.text_134')}}</p>
+                                <p class="mt-2">{{__('main.text_135')}}</p>
                             </div>
                         </div>
                     </div>
@@ -258,28 +211,22 @@
                         <div class="swiper-item">
                             <div class="service-title d-flex" id="service5">
                                 <span class="service-number">05</span>
-                                <span class="service-name">PACKAGING & LABELING</span>
+                                <span class="service-name">{{__('main.text_136')}}</span>
                                 <div class="collapse collapse-container service-collapse mt-2 " id="service5">
                                     <div class="d-flex">
                                         <div class="description">
-                                            <p>
-                                                We provide innovative packaging and
-                                                labeling solutions to enhance product
-                                                appeal
+                                            <p> {{__('main.text_137')}}
+                                                
                                             </p>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <h3>Custom Printing &
-                                                    Packaging</h3>
-                                                <p>High-quality labels, bottles, and branded
-                                                    materials.</p>
+                                                <h3>{{__('main.text_138')}}</h3>
+                                                <p> {{__('main.text_139')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>QR Code Integration</h3>
-                                                <p>Adding digital functionality to product
-                                                    packaging for enhanced customer
-                                                    engagement</p>
+                                                <h3>{{__('main.text_140')}}</h3>
+                                                <p>{{__('main.text_141')}}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -294,8 +241,8 @@
                                 </span>
                             </div>
                             <div class="service-option service5-desc">
-                                <p class="mt-2">Custom Printing & Packaging</p>
-                                <p class="mt-2">QR Code Integration </p>
+                                <p class="mt-2">{{__('main.text_142')}}</p>
+                                <p class="mt-2">{{__('main.text_143')}}</p>
                             </div>
                         </div>
                     </div>
@@ -303,44 +250,35 @@
                         <div class="swiper-item">
                             <div class="service-title d-flex">
                                 <span class="service-number">06</span>
-                                <span class="service-name">INTERNATIONAL BUSINESS DEVELOPMENT</span>
+                                <span class="service-name">{{__('main.text_144')}}</span>
                                 <div class="collapse collapse-container service-collapse mt-2 " id="service6">
                                     <div class="d-flex">
                                         <div class="description">
-                                            <p>
-                                                We help businesses expand into global
-                                                markets with strategic consulting and
-                                                execution
+                                            <p> {{__('main.text_145')}}
+                                                
                                             </p>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <h3>International Exhibitions
-                                                    & Trade Shows</h3>
-                                                <p>Booth design, setup, and brand
-                                                    representation</p>
+                                                <h3>{{__('main.text_146')}}</h3>
+                                                <p>{{__('main.text_147')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>B2B Networking &
-                                                    Meetings</h3>
-                                                <p>Connecting businesses with key industry
-                                                    partners.</p>
+                                                <h3>{{__('main.text_148')}}</h3>
+                                                <p>{{__('main.text_149')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Product Sampling &
-                                                    Competitions</h3>
-                                                <p>Organizing tastings and competitive entries.
+                                                <h3>{{__('main.text_150')}}</h3>
+                                                <p>{{__('main.text_151')}}
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Importer & Distributor
-                                                    Engagement</h3>
-                                                <p>Facilitating introductions to international
-                                                    buyers.</p>
+                                                <h3>{{__('main.text_152')}}</h3>
+                                                <p>{{__('main.text_153')}}</p>
                                             </div>
                                             <div class="col-md-12">
-                                                <h3>Investment Attraction</h3>
-                                                <p>Connecting businesses with potential investors
+                                                <h3>{{__('main.text_154')}}</h3>
+                                                <p>{{__('main.text_155')}}
                                                 </p>
                                             </div>
                                         </div>
@@ -356,11 +294,11 @@
                                 </span>
                             </div>
                             <div class="service-option service6-desc">
-                                <p class="mt-2">International Exhibitions & Trade Shows</p>
-                                <p class="mt-2">B2B Networking & Meetings</p>
-                                <p class="mt-2">Product Sampling & Competitions </p>
-                                <p class="mt-2">Investment Attraction </p>
-                                <p class="mt-2">Importer & Distributor Engagement </p>
+                                <p class="mt-2">{{__('main.text_156')}}</p>
+                                <p class="mt-2"> {{__('main.text_157')}}</p>
+                                <p class="mt-2"> {{__('main.text_158')}}</p>
+                                <p class="mt-2">{{__('main.text_159')}}</p>
+                                <p class="mt-2">{{__('main.text_160')}}</p>
                             </div>
                         </div>
                     </div>
@@ -373,7 +311,7 @@
     <div class="container-fluid main-container mt-5 service-sm">
         <div class="row mt-5 service-row">
             <div class="col-md-12 d-flex text-container">
-                <span class="section-title service-page-title">Our Service mobile</span>
+                <span class="section-title service-page-title">{{__('main.text_161')}}</span>
                 <div class="service-swiper">
                     <div class="swiper-slide service_swiper_1">
                         <div class="swiper-item">
@@ -382,47 +320,35 @@
                                     <div class="row">
                                         <div class="description">
                                             <p>
-                                                We define a brand's identity, positioning,
-                                                and messaging to connect with its audience and stand out in the market.
+                                                {{__('main.text_162')}}
                                             </p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Market Research</h3>
-                                            <p>gathering and analyzing data about the
-                                                target audience, competitors, and market
-                                                trends to inform strategic decisions.</p>
+                                            <h3>{{__('main.text_163')}}</h3>
+                                            <p>{{__('main.text_164')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Brand Positioning</h3>
-                                            <p>Defining a brand’s unique place in the
-                                                market by identifying its value proposition
-                                                and differentiating it from competitors.</p>
+                                            <h3>{{__('main.text_165')}}</h3>
+                                            <p>{{__('main.text_166')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Naming & Taglines</h3>
-                                            <p>Creating compelling and memorable names
-                                                for the brand along with impactful taglines
-                                                that communicate the brand's core message</p>
+                                            <h3>{{__('main.text_167')}}</h3>
+                                            <p>{{__('main.text_168')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Brand Storytelling</h3>
-                                            <p>Crafting a narrative that conveys the
-                                                brand’s mission, values, and journey,
-                                                helping customers connect emotionally
-                                                with the brand.</p>
+                                            <h3>{{__('main.text_169')}}</h3>
+                                            <p>{{__('main.text_170')}}</p>
                                         </div>
                                         <div class="col-md-12">
-                                            <h3>Brand Messaging & Communication Strategy</h3>
-                                            <p>Developing consistent, clear messages across all platforms to ensure the
-                                                brand
-                                                communicates effectively with its audience.</p>
+                                            <h3>{{__('main.text_171')}}</h3>
+                                            <p>{{__('main.text_172')}}</p>
                                         </div>
                                     </div>
 
                                 </div>
                                 <div class="d-flex">
                                     <span class="service-number">01</span>
-                                    <span class="service-name">BRAND STRATEGY</span>
+                                    <span class="service-name">{{__('main.text_173')}}</span>
 
                                     <span class="collapse-span service1-arrow" data-bs-toggle="collapse"
                                         data-bs-target="#service1"><svg xmlns="http://www.w3.org/2000/svg" width="28"
@@ -452,48 +378,35 @@
                                     <div class="row">
                                         <div class="description">
                                             <p>
-                                                We design the key visual elements of a
-                                                brand, including logos, colors, and
-                                                typography, for a unique and consistent
-                                                brand presence
+                                                {{__('main.text_174')}}
                                             </p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Logo Design</h3>
-                                            <p>Creating a unique and memorable logo
-                                                that represents the brand’s identity and
-                                                values.</p>
+                                            <h3>{{__('main.text_175')}}</h3>
+                                            <p>{{__('main.text_176')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Color Palette</h3>
-                                            <p>Developing a set of colors that align with
-                                                the brand’s personality and evoke the
-                                                desired emotional response</p>
+                                            <h3>{{__('main.text_177')}}</h3>
+                                            <p>{{__('main.text_178')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Typography</h3>
-                                            <p>Choosing fonts and typography styles that
-                                                complement the brand’s image and enhance
-                                                readability</p>
+                                            <h3> {{__('main.text_179')}}</h3>
+                                            <p>{{__('main.text_180')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Brand Guidelines</h3>
-                                            <p>Creating a document that outlines how
-                                                to use visual elements consistently
-                                                across all platforms and materials.</p>
+                                            <h3>{{__('main.text_181')}}</h3>
+                                            <p> {{__('main.text_182')}}</p>
                                         </div>
                                         <div class="col-md-12">
-                                            <h3>Packaging & Marketing Material Design</h3>
-                                            <p>Creating product packaging and marketing material designs that reflect
-                                                the brand’s
-                                                identity while being functional, attractive, and on-brand</p>
+                                            <h3>{{__('main.text_183')}}</h3>
+                                            <p>{{__('main.text_184')}}</p>
                                         </div>
                                     </div>
 
                                 </div>
                                 <div class="d-flex">
                                 <span class="service-number">02</span>
-                                <span class="service-name">VISUAL BRAND IDENTITY</span>
+                                <span class="service-name">{{__('main.text_185')}}</span>
 
                                 <span class="collapse-span service2-arrow" data-bs-toggle="collapse"
                                     data-bs-target="#service2"><svg xmlns="http://www.w3.org/2000/svg" width="28"
@@ -521,27 +434,20 @@
                                     <div class="row">
                                         <div class="description">
                                             <p>
-                                                We create and execute powerful
-                                                marketing strategies to maximize
-                                                reach and engagement
+                                                {{__('main.text_186')}}
                                             </p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Photo & Video
-                                                Production</h3>
-                                            <p>High-quality promotional content creation</p>
+                                            <h3>{{__('main.text_187')}}</h3>
+                                            <p>{{__('main.text_188')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Event Organization</h3>
-                                            <p>Brand activations, corporate events, and
-                                                networking initiatives</p>
+                                            <h3> {{__('main.text_189')}}</h3>
+                                            <p>{{__('main.text_190')}}</p>
                                         </div>
                                         <div class="col-md-12">
-                                            <h3>Social Media Management</h3>
-                                            <p>Create and manage content across social media platforms, engaging with
-                                                the audience,
-                                                and analyzing performance to build a strong online presence and drive
-                                                brand awareness</p>
+                                            <h3>{{__('main.text_191')}}</h3>
+                                            <p>{{__('main.text_192')}}</p>
                                         </div>
                                     </div>
 
@@ -549,7 +455,7 @@
                                 <div class="d-flex">
 
                                 <span class="service-number">03</span>
-                                <span class="service-name">MARKETING & PROMOTION</span>
+                                <span class="service-name">{{__('main.text_193')}}</span>
 
                                 <span class="collapse-span service3-arrow" data-bs-toggle="collapse"
                                     data-bs-target="#service3"><svg xmlns="http://www.w3.org/2000/svg" width="28"
@@ -576,39 +482,24 @@
                                         <div class="row">
                                             <div class="description">
                                                 <p>
-                                                    We develop digital solutions to optimize
-                                                    operations and enhance brand visibility
+                                                    {{__('main.text_194')}}
                                                 </p>
                                             </div>
                                             <div class="col-md-6">
                                                 <h3>UI / UX</h3>
-                                                <p>Creating intuitive and visually appealing
-                                                    user interfaces and experiences to
-                                                    enhance user satisfaction and interaction
-                                                    with digital products.</p>
+                                                <p>{{__('main.text_195')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Web Development</h3>
-                                                <p>Building and maintaining websites and
-                                                    web applications, ensuring they are
-                                                    functional, responsive, and optimized for a
-                                                    seamless user experience</p>
+                                                <h3>{{__('main.text_221')}}</h3>
+                                                <p>{{__('main.text_196')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Software & App
-                                                    Development</h3>
-                                                <p>Designing and developing custom software
-                                                    solutions and mobile applications tailored to
-                                                    meet specific business needs and enhance
-                                                    functionality.</p>
+                                                <h3>{{__('main.text_197')}}</h3>
+                                                <p>{{__('main.text_198')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>Domain & Server
-                                                    Management</h3>
-                                                <p>Managing and maintaining domain names
-                                                    and server infrastructure, ensuring
-                                                    secure, reliable, and high-performance
-                                                    hosting for websites and applications.</p>
+                                                <h3>{{__('main.text_199')}}</h3>
+                                                <p>{{__('main.text_200')}}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -617,7 +508,7 @@
                                 <div class="d-flex">
 
                                 <span class="service-number">04</span>
-                                <span class="service-name">IT SOLUTIONS</span>
+                                <span class="service-name">{{__('main.text_201')}}</span>
 
                                 <span class="collapse-span service4-arrow" data-bs-toggle="collapse"
                                     data-bs-target="#service4"><svg xmlns="http://www.w3.org/2000/svg" width="28"
@@ -644,29 +535,23 @@
                                     <div class="row">
                                         <div class="description">
                                             <p>
-                                                We provide innovative packaging and
-                                                labeling solutions to enhance product
-                                                appeal
+                                                {{__('main.text_202')}}
                                             </p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Custom Printing &
-                                                Packaging</h3>
-                                            <p>High-quality labels, bottles, and branded
-                                                materials.</p>
+                                            <h3>{{__('main.text_203')}}</h3>
+                                            <p>{{__('main.text_204')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>QR Code Integration</h3>
-                                            <p>Adding digital functionality to product
-                                                packaging for enhanced customer
-                                                engagement</p>
+                                            <h3>{{__('main.text_205')}}</h3>
+                                            <p>{{__('main.text_206')}}</p>
                                         </div>
                                     </div>
 
                                 </div>
                                 <div class="d-flex">
                                 <span class="service-number">05</span>
-                                <span class="service-name">PACKAGING & LABELING</span>
+                                <span class="service-name">{{__('main.text_207')}}</span>
 
                                 <span class="collapse-span service5-arrow" data-bs-toggle="collapse"
                                     data-bs-target="#service5"><svg xmlns="http://www.w3.org/2000/svg" width="28"
@@ -690,38 +575,29 @@
                                     <div class="row">
                                         <div class="description">
                                             <p>
-                                                We help businesses expand into global
-                                                markets with strategic consulting and
-                                                execution
+                                                {{__('main.text_208')}}
                                             </p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>International Exhibitions
-                                                & Trade Shows</h3>
-                                            <p>Booth design, setup, and brand
-                                                representation</p>
+                                            <h3>{{__('main.text_209')}}</h3>
+                                            <p>{{__('main.text_210')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>B2B Networking &
-                                                Meetings</h3>
-                                            <p>Connecting businesses with key industry
-                                                partners.</p>
+                                            <h3>{{__('main.text_212')}}</h3>
+                                            <p> {{__('main.text_213')}}</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Product Sampling &
-                                                Competitions</h3>
-                                            <p>Organizing tastings and competitive entries.
+                                            <h3>{{__('main.text_214')}}</h3>
+                                            <p>{{__('main.text_215')}}
                                             </p>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Importer & Distributor
-                                                Engagement</h3>
-                                            <p>Facilitating introductions to international
-                                                buyers.</p>
+                                            <h3>{{__('main.text_216')}}</h3>
+                                            <p> {{__('main.text_217')}}</p>
                                         </div>
                                         <div class="col-md-12">
-                                            <h3>Investment Attraction</h3>
-                                            <p>Connecting businesses with potential investors
+                                            <h3> {{__('main.text_218')}}</h3>
+                                            <p>{{__('main.text_219')}}
                                             </p>
                                         </div>
                                     </div>
@@ -730,7 +606,7 @@
                                 <div class="d-flex">
 
                                 <span class="service-number">06</span>
-                                <span class="service-name">INTERNATIONAL BUSINESS DEVELOPMENT</span>
+                                <span class="service-name">INTERNATIONAL BUSINESS DEVELOPMENT {{__('main.text_220')}}</span>
 
                                 <span class="collapse-span service6-arrow" data-bs-toggle="collapse"
                                     data-bs-target="#service6"><svg xmlns="http://www.w3.org/2000/svg" width="28"
