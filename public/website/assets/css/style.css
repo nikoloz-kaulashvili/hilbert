@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: 'Creato';
-    src: url('/website/assets/fonts/Creato-Regular.otf') format('opentype');
+    src: url('/website/assets/fonts/Creato-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Creato';
-    src: url('/website/assets/fonts/Creato-Regular.otf') format('opentype');
+    src: url('/website/assets/fonts/Creato-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
@@ -63,10 +63,10 @@ header {
 }
 
 .our-work {
-    border-left: 1px solid lightblue;
+    border-left: 2px solid lightblue;
     border-image: linear-gradient(to bottom, lightblue, rgb(40, 96, 250)) 1;
-
 }
+
 
 .work-card {
     border-radius: 20px;
@@ -96,6 +96,10 @@ header {
     font-size: 16px;
 }
 
+.service-row .section-title{
+    margin-right: 0px;
+}
+
 .who-text {
     height: max-content;
     font-size: 21px;
@@ -113,24 +117,37 @@ header {
     border-image: linear-gradient(to right, rgb(40, 96, 250), lightblue) 1;
 }
 
+.contact-p{
+    margin-top: 10px;
+}
+
+.contct-textarea{
+    margin-top: 5px;
+}
+
 .service-number {
     margin-top: auto;
     font-size: 90px;
-    background: linear-gradient(to right, rgb(40, 96, 250), lightblue);
+    width: 108px;
+    color: #4374FF;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: -15px;
+    font-weight: bold;
 }
 
 .service-name {
     margin-top: auto;
     margin-bottom: 10px;
     margin-left: 30px;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: bold;
 }
-
+.service-collapse h3{
+    font-weight: bold;
+    font-size: 23px;
+}
 .service-swiper .swiper-item p {
+    font-weight: bold;
     font-size: 15px;
     color: grey;
     max-width: 400px;
@@ -158,6 +175,7 @@ header {
     font-size: 10px;
     text-align: right;
     color: grey;
+    font-weight: bold;
 }
 
 .work-item img {
@@ -207,6 +225,7 @@ header {
     margin-bottom: 30px;
 }
 
+
 footer {
     background-color: #4374ff;
     width: 100vw;
@@ -215,7 +234,7 @@ footer {
 }
 
 footer h4 {
-    font-weight: 500;
+    font-weight: bold;
     border-bottom: 2px solid;
     padding-bottom: 10px;
     border-image: linear-gradient(to right, rgb(16, 2, 221), lightblue) 1;
@@ -271,7 +290,9 @@ footer p {
 }
 
 .navigation {
-    width: 400px;
+    width: 600px;
+    max-width: 600px;
+    min-width: 400px;
     position: fixed;
     right: 0;
     background-color: #4374FF;
@@ -378,7 +399,7 @@ footer p {
 }
 .service-collapse .row div{
     padding: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 90px !important;
     border: 1px solid rgba(0, 0, 0, 0.2);
     /* Light border between items */
     padding: 15px;
@@ -386,15 +407,64 @@ footer p {
     border-image: linear-gradient(to right, rgb(40, 96, 250), lightblue) 1;
 }
 
+.header-logo{
+    position: fixed;
+    margin-top: -15px;
+}
+
 .service-collapse .description p{
     margin-right: 20px;
     margin-top: 20px;
     width: 200px;
+    color: #fff;
+    font-weight: 300;
+}
+.main-service .service-number{
+    margin-top: auto;
+    font-size: 90px;
+    background: linear-gradient(to right, rgb(40, 96, 250), lightblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -15px;
 }
 
 .collapse-span{
     right: 0;
     bottom: 0;
+}
+.logo-sec {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+/* Disappear Effect (Slide & Blur) */
+.hide-logo .logo-sec:nth-child(2) {
+    transform: translateX(-10px);
+    opacity: 0;
+}
+
+.hide-logo .logo-sec:nth-child(3) {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+.hide-logo .logo-sec:nth-child(4) {
+    transform: translateX(-50px);
+    opacity: 0;
+}
+.hide-logo .logo-sec:nth-child(5) {
+    transform: translateX(-70px);
+    opacity: 0;
+}
+.hide-logo .logo-sec:nth-child(6) {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+.hide-logo .logo-sec:nth-child(7) {
+    transform: translateX(-130px);
+    opacity: 0;
+}
+.hide-logo .logo-sec:nth-child(8) {
+    transform: translateX(-130px);
+    opacity: 0;
 }
 
 .btn-main{
@@ -409,6 +479,11 @@ footer p {
     color: #fff !important;
 
 }
+.contact-span{
+    transform: scaleX(-1);
+    rotate: 180deg;
+    margin-left: -5px;
+}
 .btn-contact{
     background-image: url('/website/assets/img/btn-3.png');
     background-position: center;
@@ -416,15 +491,18 @@ footer p {
     background-size: contain;
     width: max-content;
     padding: 10px;
-    padding-top: 20px;
-    padding-left: 10px;    
-    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 17px;
+    padding-right: 30px;
+    margin-left: -10px;
+    padding-bottom: 10px;
     color: #fff !important;
     rotate: 90deg;
     position: fixed;
     left: -30px;
     top: 48vh;
     font-size: 20px;
+    transform: scaleX(-1);
 }
 .contact-2-btn{
     background-image: url('/website/assets/img/btn-3.png');
@@ -449,7 +527,6 @@ footer p {
 }
 
 .service-row{
-    margin-right: 5vw !important;
     margin-bottom: 100px;
 }
 
@@ -618,6 +695,7 @@ footer p {
     margin-bottom: 20px;
     padding: 12px;
     border-radius: 5px;
+    height: 60px;
 }
 .contact-form textarea{
     width: 100%;
@@ -625,8 +703,31 @@ footer p {
     padding: 12px;
     border-radius: 5px;
     height: 150px;
+    height: 220px;
 }
-
+.contact-row{
+    margin-top: 15vh;
+}
+.contact-about{
+    margin-top: 57px;
+    border-top: 1px solid lightblue;
+    border-image: linear-gradient(to bottom, lightblue, rgb(40, 96, 250)) 1;
+    padding-top: 20px;
+    margin-bottom: 250px;
+}
+.cb{
+    padding-right: 50px;
+}
+.contact-about h5{
+    font-weight: 400;
+    color: #4374ff;
+}
+.contact-about p{
+    margin-bottom: 5px;
+}
+.contact-about h6{
+    color: #4374FF;
+}
 
 /* modals */
 .works-scrol img{
@@ -758,12 +859,38 @@ footer p {
     cursor: grab; /* მაჩვენებს "გრაბ" კურსორს */
   }
 
+  .partner-logos .swiper-slide{
+    width: max-content;
+  }
+  .modal{
+    overflow-y: hidden;
+  }
   .modal.fade .modal-dialog{
-    margin: 10vw;
-    max-width: 80vw;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 0px !important;
   }
   
-
+  .work-row .swiper-wrapper {
+    display: flex;
+    transition: transform linear 0s;
+    will-change: transform;
+}
+.partnerSwiper .swiper-wrapper {
+    display: flex;
+    transition: transform linear 0s;
+    will-change: transform;
+}
+.serviceSwiper .swiper-wrapper{
+    display: flex;
+    transition: transform linear 0s;
+    will-change: transform;
+}
+.partnerSwiper .swiper-wrapper .swiper-slide{
+    text-align: center;
+}
 /* modals end */
 
 @media only screen and (max-width: 1050px) {
@@ -819,6 +946,9 @@ footer p {
     /* .partners{
         margin-left: -30px !important;
     } */
+     .navigation{
+        width: 600px;
+     }
     .works-row h1{
         font-size: 35px;
     }
@@ -832,6 +962,7 @@ footer p {
     }
     footer{
         margin-left: -30px !important;
+        margin-top: auto;
     }
     .who-text{
         font-size: 17px;

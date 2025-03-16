@@ -1,7 +1,14 @@
 <header>
-    <div class="d-flex">
-        <a href="{{ route('website.main') }}"> 
+    <div class="d-flex header-logo">
+        <a class="d-flex " href="{{ route('website.main') }}"> 
             <img class="logo" src="/website/assets/img/logo.svg" alt="logo">
+            <h1 class="logo-sec">H</h1>
+            <h1 class="logo-sec">I</h1>
+            <h1 class="logo-sec">L</h1>
+            <h1 class="logo-sec">B</h1>
+            <h1 class="logo-sec">E</h1>
+            <h1 class="logo-sec">R</h1>
+            <h1 class="logo-sec">T</h1>
         </a>
     </div>
 
@@ -43,6 +50,9 @@
         });
 
         $(".close").click(function() {
+            $(".nav").hide();
+        });
+        $(".cover").click(function() {
             $(".nav").hide();
         });
     });

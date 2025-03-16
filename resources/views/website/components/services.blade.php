@@ -77,8 +77,8 @@
                                                 <p>{{__('main.text_99')}}</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <h3>{{__('main.text_200')}}</h3>
-                                                <p>{{__('main.text_101')}}</p>
+                                                <h3>{{__('main.text_177')}}</h3>
+                                                <p>{{__('main.text_178')}}</p>
                                             </div>
                                             <div class="col-md-6">
                                                 <h3>{{__('main.text_102')}}</h3>
@@ -130,11 +130,11 @@
                                                 <h3>{{__('main.text_115')}}</h3>
                                                 <p>{{__('main.text_116')}}</p>
                                             </div>
-                                            <div class="col-md-6">
+                                            {{-- <div class="col-md-6">
                                                 <h3>{{__('main.text_117')}}</h3>
                                                 <p>{{__('main.text_118')}}</p>
-                                            </div>
-                                            <div class="col-md-12">
+                                            </div> --}}
+                                            <div class="col-md-6">
                                                 <h3>{{__('main.text_119')}}</h3>
                                                 <p>{{__('main.text_120')}}</p>
                                             </div>
@@ -441,11 +441,11 @@
                                             <h3>{{__('main.text_187')}}</h3>
                                             <p>{{__('main.text_188')}}</p>
                                         </div>
-                                        <div class="col-md-6">
+                                        {{-- <div class="col-md-6">
                                             <h3> {{__('main.text_189')}}</h3>
                                             <p>{{__('main.text_190')}}</p>
-                                        </div>
-                                        <div class="col-md-12">
+                                        </div> --}}
+                                        <div class="col-md-6">
                                             <h3>{{__('main.text_191')}}</h3>
                                             <p>{{__('main.text_192')}}</p>
                                         </div>
@@ -647,17 +647,15 @@
                 let isActive = swiper.hasClass("is-active");
                 if (isActive) {
                     $(".swiper-slide").removeClass("is-active").css("opacity", "1");
-                    desc.toggle();
+                    desc.show();
                     $(buttonId).css("margin-left", "auto");
                 } else {
                     $(".swiper-slide").removeClass("is-active").css("opacity", "0.4");
                     swiper.addClass("is-active").css("opacity", "1");
-                    desc.toggle();
-
+                    desc.hide();
                 }
             }
 
-            // თითოეულ ღილაკზე ვამატებთ event-ს
             $(".service1-arrow").click(function() {
                 $(this).css("margin-left", "0px");
                 toggleSwiper(".service1-arrow", ".service_swiper_1", ".service21-desc");
