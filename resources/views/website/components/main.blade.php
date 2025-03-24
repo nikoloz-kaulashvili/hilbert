@@ -152,8 +152,7 @@
             <div class="col-md-8 d-flex text-container">
                 <h1>{{ __('main.text_55') }}</h1>
                 <div class="row work-items">
-                    <div class="col-12 col-sm-6 col-md-6 work-item"  data-toggle="modal"
-                    data-target=".modal-lale">
+                    <div class="col-12 col-sm-6 col-md-6 work-item" data-toggle="modal" data-target=".modal-lale">
                         <img src="/website/assets/img/lale.png" alt="test">
                         <p class="hidden-text">{{ __('main.text_56') }}</p>
                         <div class="d-flex mt-3">
@@ -165,8 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-6 work-item" data-toggle="modal"
-                    data-target=".modal-tanovani">
+                    <div class="col-12 col-sm-6 col-md-6 work-item" data-toggle="modal" data-target=".modal-tanovani">
                         <img src="/website/assets/img/tanovani.png" alt="test">
                         <p class="hidden-text">{{ __('main.text_61') }}</p>
                         <div class="d-flex mt-3">
@@ -178,8 +176,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-6 work-item" data-toggle="modal"
-                    data-target=".modal-chitostan">
+                    <div class="col-12 col-sm-6 col-md-6 work-item" data-toggle="modal" data-target=".modal-chitostan">
                         <img src="/website/assets/img/chitostan.png" alt="test">
                         <p class="hidden-text">{{ __('main.text_66') }}</p>
                         <div class="d-flex mt-3">
@@ -191,8 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-6 work-item" data-toggle="modal"
-                    data-target=".modal-askrioni">
+                    <div class="col-12 col-sm-6 col-md-6 work-item" data-toggle="modal" data-target=".modal-askrioni">
                         <img src="/website/assets/img/askrioni.png" alt="test">
                         <p class="hidden-text">{{ __('main.text_61') }}</p>
                         <div class="d-flex mt-3">
@@ -223,7 +219,7 @@
                         <div class="swiper partnerSwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/website/assets/img/lalel.png" alt="">
+                                    <img class="lale" src="/website/assets/img/lale1.webp" alt="">
                                 </div>
                                 <div class="swiper-slide">
                                     <img src="/website/assets/img/otaridl.png" alt="">
@@ -264,16 +260,15 @@
     <script>
         var swiper = new Swiper(".landingSwiper", {
             slidesPerView: 1,
-            spaceBetween: 10,
             loop: true,
             slidesPerView: 'auto',
-            spaceBetween: 10,
+            spaceBetween: 0,
             loop: true,
             autoplay: {
                 delay: 0,
                 disableOnInteraction: false,
             },
-            speed: 2000,
+            speed: 4000,
             allowTouchMove: true,
             breakpoints: {
                 440: {
@@ -298,42 +293,20 @@
 
     <script>
         var swiper = new Swiper(".partnerSwiper", {
-            slidesPerView: 3,
-            spaceBetween: 10,
+            slidesPerView: "auto",
+            spaceBetween: 5,
             loop: true,
-            slidesPerView: 'auto',
-            spaceBetween: 10,
-            loop: true,
+            speed: 2000, // რაც მეტი, მით უფრო რბილად იმოძრავებს
             autoplay: {
-                delay: 0,
+                delay: 0, // პატარა delay = უწყვეტი შეგრძნება
                 disableOnInteraction: false,
             },
-            speed: 5000,
-            allowTouchMove: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                440: {
-                    slidesPerView: 5,
-                    spaceBetween: 20,
-                },
-                640: {
-                    slidesPerView: 4,
-                    spaceBetween: 20,
-                },
-                768: {
-                    slidesPerView: 4,
-                    spaceBetween: 10,
-                },
-                1024: {
-                    slidesPerView: 5,
-                    spaceBetween: 10,
-                },
-            },
+            allowTouchMove: false,
+            grabCursor: false,
+            loopedSlides: 20, // თუ გაქვს ბევრი ლოგო, ხელით უნდა დააყენო ეს
         });
     </script>
+
 
     <script>
         var swiper = new Swiper(".serviceSwiper", {
@@ -357,13 +330,13 @@
                 let scrollTop = window.scrollY || document.documentElement.scrollTop;
 
                 if (scrollTop > lastScrollTop) {
-                    // Scroll Down → Hide Logo
                     header.classList.add("hide-logo");
                     header.classList.remove("show-logo");
+                    $(".sidebar-icon").css("opacity", "0");
                 } else {
-                    // Scroll Up → Show Logo
                     header.classList.add("show-logo");
                     header.classList.remove("hide-logo");
+                    $(".sidebar-icon").css("opacity", "1");
                 }
 
                 lastScrollTop = scrollTop;

@@ -9,6 +9,13 @@
             <h1 class="logo-sec">E</h1>
             <h1 class="logo-sec">R</h1>
             <h1 class="logo-sec">T</h1>
+            {{-- <img class="logo-sec" src="/website/assets/img/h.svg" alt="">
+            <img class="logo-sec" src="/website/assets/img/i.svg" alt="">
+            <img class="logo-sec" src="/website/assets/img/l.svg" alt="">
+            <img class="logo-sec" src="/website/assets/img/b.svg" alt="">
+            <img class="logo-sec" src="/website/assets/img/e.svg" alt="">
+            <img class="logo-sec" src="/website/assets/img/r.svg" alt="">
+            <img class="logo-sec" src="/website/assets/img/t.svg" alt=""> --}}
         </a>
     </div>
 

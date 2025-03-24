@@ -18,6 +18,18 @@
     font-weight: 300;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Creato';
+    src: url('/website/assets/fonts/Creato-ExtraBold.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Creato';
+    src: url('/website/assets/fonts/Creato-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
 
 body {
     font-family: 'Creato', sans-serif !important;
@@ -147,7 +159,7 @@ header {
     font-size: 23px;
 }
 .service-swiper .swiper-item p {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 15px;
     color: grey;
     max-width: 400px;
@@ -156,9 +168,18 @@ header {
 
 .works-row h1 {
     font-size: 43px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
+.the{
+    width: 40px !important;
+}
+
+.expanding{
+    width: 130px !important;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 
 .work-items .work-item {
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -175,7 +196,7 @@ header {
     font-size: 10px;
     text-align: right;
     color: grey;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 .work-item img {
@@ -207,7 +228,7 @@ header {
 }
 
 .partners-col img {
-    width: auto;
+    width: 150px;
     max-width: 100%;
     height: 100px;
     object-fit: contain;
@@ -224,7 +245,9 @@ header {
 .partner-logos {
     margin-bottom: 30px;
 }
-
+.lale{
+  width: 90px !important;  
+}
 
 footer {
     background-color: #4374ff;
@@ -315,6 +338,7 @@ footer p {
     color: #fff;
     font-size: 27px;
     transition: 0.3s;
+    font-weight: 500;
 }
 
 .navigation ul li a:hover{
@@ -349,6 +373,10 @@ footer p {
 
 .burger{
     cursor: pointer;
+    position: fixed;
+    right: 60px;
+    z-index: 2;
+    margin-top: -10px;
 }
 
 .service-swiper .swiper-slide{
@@ -401,15 +429,81 @@ footer p {
     padding: 20px;
     padding-bottom: 90px !important;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    /* Light border between items */
     padding: 15px;
-    /* Space inside each column */
     border-image: linear-gradient(to right, rgb(40, 96, 250), lightblue) 1;
+}
+.loader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #070e1e;
+    z-index: 2222;
+    left: 0;
+}
+.loader-item img{
+    width: 300px;
+}
+.loader-item{
+    width: max-content;
+    margin: auto;
+    margin-top: 40vh;
+}
+
+.loader-line-main{
+    width: 96%;
+    border-radius: 10px;
+    height: 5px;
+    background-color: #1e2c5d;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.loader-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: rotateLogo 2s linear infinite;
+    margin-left: -20px;
+}
+
+@keyframes rotateLogo {
+    0% { transform: rotateX(0deg); }
+    100% { transform: rotateX(360deg); }
+}
+
+.loader-line {
+    width: 0%;
+    height: 100%;
+    background-color: #4d72f5;
+    margin-top: 10px;
+}
+
+ /* Loader Wrapper */
+
+
+.loader-container {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo{
     position: fixed;
     margin-top: -15px;
+}
+
+@keyframes rotateLogo {
+    0% { transform: rotateX(0deg); }
+    100% { transform: rotateX(360deg); }
+}
+
+/* Loader Line */
+.loader-line {
+    width: 0;
+    height: 5px;
+    background-color: #4d72f5;
+    margin-top: 10px;
 }
 
 .service-collapse .description p{
@@ -433,6 +527,7 @@ footer p {
     bottom: 0;
 }
 .logo-sec {
+    /* width: 10px; */
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
@@ -544,7 +639,8 @@ footer p {
 }
 
 .who-text{
-    width: 70%;
+    width: 80%;
+    font-weight: bold;
 }
 
 .work-item img{
@@ -1005,3 +1101,11 @@ footer p {
     }
 
 }
+
+
+  
+  .partnerSwiper img {
+    object-fit: contain;
+    padding: 0 20px;
+  }
+  
